@@ -43,19 +43,23 @@ public class Noeud<T extends Sommable> implements Arbre<T>, Sommable<T> {
 
     @Override
     public T somme() {
-        /*Iterator<Arbre> element1;
-        T t1 = element1.next().somme();
+        Iterator<Arbre> element1 = son.iterator();
+        T t1 = (T) element1.next().somme();
         Arbre tree;
         while (element1.hasNext()) {
             tree = element1.next();
-            t1 = t1.sommer(tree.somme());
+            t1 = (T) somme().sommer(tree.somme());
         }
-        return t1;*/
-        return null;
+        return t1;
     }
 
     @Override
     public T sommer(T val) {
         return null;
+    }
+
+    @Override
+    public String toString() {
+        return "Noeud : [" + "La fils est =" + son + ']';
     }
 }

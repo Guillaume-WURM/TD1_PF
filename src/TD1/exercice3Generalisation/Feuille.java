@@ -32,6 +32,11 @@ public class Feuille<T extends Sommable> implements Arbre<T>, Sommable<T>{
 
     @Override
     public T sommer(T val) {
-        return null;
+        return this.valeur;
+    }
+
+    @Override
+    public String toString() {
+        return "feuille : [" + "La feuille est =" + valeur + ']';
     }
 }
