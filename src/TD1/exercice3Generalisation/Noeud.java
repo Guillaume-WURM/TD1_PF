@@ -1,9 +1,10 @@
 package TD1.exercice3Generalisation;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
-public class Noeud<T> implements Arbre<T> {
+public class Noeud<T extends Sommable> implements Arbre<T>, Sommable<T> {
 
     public Set<Arbre> son;
 
@@ -38,5 +39,23 @@ public class Noeud<T> implements Arbre<T> {
             t1.addAll(a.valeurs());
         }
         return t1;
+    }
+
+    @Override
+    public T somme() {
+        /*Iterator<Arbre> element1;
+        T t1 = element1.next().somme();
+        Arbre tree;
+        while (element1.hasNext()) {
+            tree = element1.next();
+            t1 = t1.sommer(tree.somme());
+        }
+        return t1;*/
+        return null;
+    }
+
+    @Override
+    public T sommer(T val) {
+        return null;
     }
 }

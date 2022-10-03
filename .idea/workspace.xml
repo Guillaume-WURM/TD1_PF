@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc8b12a-3231-4e37-996a-a254bba5c30e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Arbre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Feuille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Noeud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Chaine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Entier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Sommable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3/Noeud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice1/réponse" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Arbre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Arbre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Feuille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Feuille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Noeud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <workItem from="1664539484591" duration="1451000" />
       <workItem from="1664542510188" duration="2137000" />
       <workItem from="1664783528119" duration="4059000" />
-      <workItem from="1664796025280" duration="4720000" />
+      <workItem from="1664796025280" duration="7123000" />
     </task>
     <servers />
   </component>
