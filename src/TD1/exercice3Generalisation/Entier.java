@@ -1,6 +1,6 @@
 package TD1.exercice3Generalisation;
 
-public class Entier <T> implements Sommable<Entier> {
+public class Entier implements Sommable<Entier> {
 
     private Integer val;
 
@@ -15,5 +15,10 @@ public class Entier <T> implements Sommable<Entier> {
     @Override
     public Entier sommer(Entier val) {
         return new Entier(this.val+ val.getVal());
+    }
+
+    @Override
+    public String toString() {
+        return "type Entier : [" + "La valeur =" + val + ']';
     }
 }

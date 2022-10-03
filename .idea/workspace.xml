@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc8b12a-3231-4e37-996a-a254bba5c30e" name="Changes" comment="question 3 &amp; 4 exo 3">
+    <list default="true" id="6fc8b12a-3231-4e37-996a-a254bba5c30e" name="Changes" comment="question chaine et entier + algo Noeud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3/Noeud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Chaine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Chaine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Entier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Entier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TD1.exercice3Generalisation.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TD1.exercice2.Main" />
       <module name="PF_TD1_WURM_Guillaume_V1" />
@@ -54,8 +54,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TD1.exercice3Generalisation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TD1.exercice3Generalisation.Main" />
+      <module name="PF_TD1_WURM_Guillaume_V1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TD1.exercice3Generalisation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TD1.exercice3Generalisation.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -71,7 +85,7 @@
       <workItem from="1664539484591" duration="1451000" />
       <workItem from="1664542510188" duration="2137000" />
       <workItem from="1664783528119" duration="4059000" />
-      <workItem from="1664796025280" duration="10504000" />
+      <workItem from="1664796025280" duration="11388000" />
     </task>
     <task id="LOCAL-00001" summary="question 3 &amp; 4 exo 3">
       <created>1664803576166</created>
@@ -80,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664803576166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="question chaine et entier + algo Noeud">
+      <created>1664807658041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664807658041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="question 3 &amp; 4 exo 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 3 &amp; 4 exo 3" />
+    <MESSAGE value="question chaine et entier + algo Noeud" />
+    <option name="LAST_COMMIT_MESSAGE" value="question chaine et entier + algo Noeud" />
   </component>
 </project>
