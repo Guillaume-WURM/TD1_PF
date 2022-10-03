@@ -2,13 +2,14 @@ package TD1.exercice3Generalisation;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
-public class Noeud<T extends Sommable> implements Arbre<T>, Sommable<T> {
+public class Noeud<T extends Sommable <T>> implements Arbre<T> {
 
-    public Set<Arbre> son;
+    public List<Arbre<T>> son;
 
-    public Noeud(Set<Arbre> son) {
+    public Noeud(List<Arbre<T>> son) {
         this.son = son;
     }
 
@@ -43,23 +44,60 @@ public class Noeud<T extends Sommable> implements Arbre<T>, Sommable<T> {
 
     @Override
     public T somme() {
-        Iterator<Arbre> element1 = son.iterator();
-        T t1 = (T) element1.next().somme();
-        Arbre tree;
+        Iterator<Arbre<T>> element1 = son.iterator();
+        T t1 = element1.next().somme();
+        T next;
         while (element1.hasNext()) {
-            tree = element1.next();
-            t1 = (T) somme().sommer(tree.somme());
+            next = element1.next().somme();
+            t1 = t1.sommer(next);
         }
         return t1;
     }
 
     @Override
-    public T sommer(T val) {
+    public String toString() {
+        return "Noeud : [" + "La fils est =" + son + ']';
+    }
+
+    @Override
+    public T min() {
+        //a finir
+        /*int x = son.get(0).min();
+        for (Arbre a : son) {
+            if(a.min() < x){
+                x = a.min();
+            }
+        }
+        return x;*/
         return null;
     }
 
     @Override
-    public String toString() {
-        return "Noeud : [" + "La fils est =" + son + ']';
+    public T max() {
+        //a finir
+        /*int x = son.get(0).max();
+        for(Arbre a : son){
+            if(a.max() > x){
+                x = a.max();
+            }
+        }
+        return x;*/
+        return null;
+    }
+
+    @Override
+    public boolean estTrie() {
+        //a finir
+        /*boolean x = true;
+        for (T i = 0; i < son.size() - 1; i++) {
+            if(son.get(i).max() > son.get(i+1).min()){
+                x = false;
+            }
+            else if (!son.get(i).estTrie()){
+                return false;
+            }
+        }
+        return x;*/
+        return true;
     }
 }

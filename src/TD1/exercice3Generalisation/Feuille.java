@@ -39,4 +39,19 @@ public class Feuille<T extends Sommable> implements Arbre<T>, Sommable<T>{
     public String toString() {
         return "feuille : [" + "La feuille est =" + valeur + ']';
     }
+
+    @Override
+    public T min() {
+        return this.valeur;
+    }
+
+    @Override
+    public T max() {
+        return this.valeur;
+    }
+
+    @Override
+    public boolean estTrie() {
+        return true;
+    }
 }
