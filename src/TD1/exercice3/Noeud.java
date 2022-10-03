@@ -53,16 +53,37 @@ public class Noeud implements Arbre {
 
     @Override
     public Integer min() {
-        return null;
+        int x = son.get(0).min();
+        for (Arbre a : son) {
+            if(a.min() < x){
+                x = a.min();
+            }
+        }
+        return x;
     }
 
     @Override
     public Integer max() {
-        return null;
+        int x = son.get(0).max();
+        for(Arbre a : son){
+            if(a.max() > x){
+                x = a.max();
+            }
+        }
+        return x;
     }
 
     @Override
     public boolean estTrie() {
-        return false;
+        boolean x = true;
+        for (int i = 0; i < son.size() - 1; i++) {
+            if(son.get(i).max() > son.get(i+1).min()){
+                x = false;
+            }
+            else if (!son.get(i).estTrie()){
+                return false;
+            }
+        }
+        return x;
     }
 }
