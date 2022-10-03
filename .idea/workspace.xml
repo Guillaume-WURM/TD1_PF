@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc8b12a-3231-4e37-996a-a254bba5c30e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PF_TD1_WURM_Guillaume_V1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice1/réponse" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice2/Paire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3/Arbre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3/Feuille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3/Noeud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Arbre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Feuille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Noeud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3/Noeud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,8 @@
       <updated>1664539480630</updated>
       <workItem from="1664539484591" duration="1451000" />
       <workItem from="1664542510188" duration="2137000" />
-      <workItem from="1664783528119" duration="3749000" />
+      <workItem from="1664783528119" duration="4059000" />
+      <workItem from="1664796025280" duration="4720000" />
     </task>
     <servers />
   </component>
