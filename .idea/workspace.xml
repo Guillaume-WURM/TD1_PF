@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc8b12a-3231-4e37-996a-a254bba5c30e" name="Changes" comment="question 4" />
+    <list default="true" id="6fc8b12a-3231-4e37-996a-a254bba5c30e" name="Changes" comment="question 1">
+      <change afterPath="$PROJECT_DIR$/src/TD1/exercice1/réponse.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Chaine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Chaine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Entier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Entier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Noeud.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +87,10 @@
       <workItem from="1664539484591" duration="1451000" />
       <workItem from="1664542510188" duration="2137000" />
       <workItem from="1664783528119" duration="4059000" />
-      <workItem from="1664796025280" duration="14483000" />
+      <workItem from="1664796025280" duration="14575000" />
+      <workItem from="1664882940210" duration="2352000" />
+      <workItem from="1664904740582" duration="589000" />
+      <workItem from="1665236779252" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="question 3 &amp; 4 exo 3">
       <created>1664803576166</created>
@@ -117,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664811264834</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="question 1">
+      <created>1664811453984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664811453984</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +156,7 @@
     <MESSAGE value="question chaine et entier + algo Noeud" />
     <MESSAGE value="mise en place du main + tostring + sommer" />
     <MESSAGE value="question 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 4" />
+    <MESSAGE value="question 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 1" />
   </component>
 </project>
