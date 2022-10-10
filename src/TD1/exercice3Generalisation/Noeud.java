@@ -1,11 +1,8 @@
 package TD1.exercice3Generalisation;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
-public class Noeud<T extends Sommable <T>> implements Arbre<T> {
+public class Noeud<T extends Sommable <T> & Comparable<T>> implements Arbre<T> {
 
     public List<Arbre<T>> son;
 
@@ -61,43 +58,40 @@ public class Noeud<T extends Sommable <T>> implements Arbre<T> {
 
     @Override
     public T min() {
-        //a finir
-        /*int x = son.get(0).min();
-        for (Arbre a : son) {
-            if(a.min() < x){
-                x = a.min();
+        T x = son.get(0).min();
+        for (Arbre<T> a : son) {
+            T valeur = a.min();
+            if(x.compareTo(a.min()) > 0){
+                x = valeur;
             }
         }
-        return x;*/
-        return null;
+        return x;
     }
 
     @Override
     public T max() {
-        //a finir
-        /*int x = son.get(0).max();
-        for(Arbre a : son){
-            if(a.max() > x){
-                x = a.max();
+        T x = son.get(0).max();
+        for(Arbre<T> a : son){
+            T valeur = a.max();
+            if(x.compareTo(a.min()) < 0){
+                x = valeur;
             }
         }
-        return x;*/
-        return null;
+        return x;
     }
 
     @Override
     public boolean estTrie() {
-        //a finir
-        /*boolean x = true;
-        for (T i = 0; i < son.size() - 1; i++) {
-            if(son.get(i).max() > son.get(i+1).min()){
+        boolean x = true;
+        for (int i=0; i<son.size(); i++){
+            Arbre<T> a = son.get(i);
+            if(a.max().compareTo(son.get(i+1).min()) > 0){
                 x = false;
             }
-            else if (!son.get(i).estTrie()){
+            else if (!a.estTrie()){
                 return false;
             }
         }
-        return x;*/
-        return true;
+        return x;
     }
 }

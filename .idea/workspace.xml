@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc8b12a-3231-4e37-996a-a254bba5c30e" name="Changes" comment="question 1">
-      <change afterPath="$PROJECT_DIR$/src/TD1/exercice1/réponse.txt" afterDir="false" />
+    <list default="true" id="6fc8b12a-3231-4e37-996a-a254bba5c30e" name="Changes" comment="exercice 3 question 5 (hashcode, compareTo &amp; Equals in file Entier+Chaine)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Chaine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Chaine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Entier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Entier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Arbre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Arbre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Feuille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Feuille.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TD1/exercice3Generalisation/Noeud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,9 @@
       <workItem from="1664796025280" duration="14575000" />
       <workItem from="1664882940210" duration="2352000" />
       <workItem from="1664904740582" duration="589000" />
-      <workItem from="1665236779252" duration="1067000" />
+      <workItem from="1665236779252" duration="4850000" />
+      <workItem from="1665401587968" duration="2094000" />
+      <workItem from="1665403757163" duration="2656000" />
     </task>
     <task id="LOCAL-00001" summary="question 3 &amp; 4 exo 3">
       <created>1664803576166</created>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664811453984</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="exercice 3 question 5 (hashcode, compareTo &amp; Equals in file Entier+Chaine)">
+      <created>1665237950431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665237950431</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +164,7 @@
     <MESSAGE value="mise en place du main + tostring + sommer" />
     <MESSAGE value="question 4" />
     <MESSAGE value="question 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 1" />
+    <MESSAGE value="exercice 3 question 5 (hashcode, compareTo &amp; Equals in file Entier+Chaine)" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercice 3 question 5 (hashcode, compareTo &amp; Equals in file Entier+Chaine)" />
   </component>
 </project>

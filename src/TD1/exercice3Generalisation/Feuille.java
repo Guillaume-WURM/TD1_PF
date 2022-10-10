@@ -1,10 +1,10 @@
 package TD1.exercice3Generalisation;
 
+
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
-public class Feuille<T extends Sommable> implements Arbre<T>, Sommable<T>{
+public class Feuille<T extends Sommable<T> & Comparable<T>> implements Arbre<T>{
 
     private T valeur;
 
@@ -27,11 +27,6 @@ public class Feuille<T extends Sommable> implements Arbre<T>, Sommable<T>{
 
     @Override
     public T somme() {
-        return null;
-    }
-
-    @Override
-    public T sommer(T val) {
         return this.valeur;
     }
 
